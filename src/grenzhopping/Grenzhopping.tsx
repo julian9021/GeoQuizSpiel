@@ -1,6 +1,6 @@
 import { useState, useRef, useEffect, useMemo } from "react";
 import type { Country } from "../data/db";
-import { ALL_COUNTRIES, BY_CODE, BORDER_GRAPH, bfs } from "../data/db";
+import { ALL_COUNTRIES, BY_CODE, BORDER_GRAPH } from "../data/db";
 import { generateGrenzhoppingPuzzle } from "../data/generateGrenzhopping";
 import ChainMap from "./ChainMap";
 import "./grenzhopping.css";

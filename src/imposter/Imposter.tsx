@@ -66,8 +66,6 @@ export default function Imposter({ onRestart }: { onRestart?: () => void }) {
     );
   }
 
-  const liarCard = round.cards.find((c) => c.isLiar)!;
-
   return (
     <div className="imp-game">
       <header className="imp-header">
