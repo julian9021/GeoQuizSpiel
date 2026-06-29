@@ -1,0 +1,223 @@
+/* ---- Imposter / Hochstapler ---- */
+.imp-game {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 14px;
+  flex: 1;
+}
+
+/* Header */
+.imp-header {
+  text-align: center;
+  padding: 4px 0;
+}
+
+.imp-header h1 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
+}
+
+.imp-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--pill);
+  border-radius: var(--radius-pill);
+  padding: 6px 18px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.imp-status-sep {
+  color: var(--muted);
+}
+
+/* Question */
+.imp-question {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--ink);
+  text-align: center;
+  padding: 4px 0;
+}
+
+/* Cards grid */
+.imp-cards {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  flex: 1;
+}
+
+.imp-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  cursor: pointer;
+  text-align: left;
+  font-family: var(--font-body);
+  transition: background 0.12s;
+  width: 100%;
+}
+
+.imp-card:hover:not(:disabled) {
+  background: var(--hover);
+}
+
+.imp-card:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.imp-card:disabled {
+  cursor: default;
+}
+
+.imp-card.imp-correct {
+  border-color: var(--correct);
+  border-width: 3px;
+  background: var(--surface);
+}
+
+.imp-card.imp-wrong {
+  border-color: var(--wrong);
+  border-width: 3px;
+  background: var(--surface);
+}
+
+.imp-card.imp-reveal {
+  border-color: var(--wrong);
+  border-style: dashed;
+  background: var(--surface);
+}
+
+.imp-card-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.imp-card-flag {
+  font-size: 1.6rem;
+}
+
+.imp-card-name {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.imp-card-fact {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding-left: 2px;
+}
+
+.imp-card-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.imp-card-value {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.imp-card-correction {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--correct);
+  padding-top: 2px;
+  padding-left: 2px;
+}
+
+/* Primary button */
+.imp-btn-primary {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 17px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+
+.imp-btn-primary:hover {
+  background: #2A3D48;
+}
+
+.imp-btn-primary:active {
+  background: #0F1A20;
+}
+
+.imp-btn-primary:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Result */
+.imp-score-final {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-top: 4px;
+}
+
+.imp-result-rounds {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  flex: 1;
+}
+
+.imp-result-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius);
+  padding: 12px 16px;
+  border-left-width: 4px;
+}
+
+.imp-result-row.correct {
+  border-left-color: var(--correct);
+}
+
+.imp-result-row.wrong {
+  border-left-color: var(--wrong);
+}
+
+.imp-result-icon {
+  font-size: 1.2rem;
+}
+
+.imp-result-cat {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+}

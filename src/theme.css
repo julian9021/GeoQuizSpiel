@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Public+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap');
+
+:root {
+  /* Colors */
+  --paper:    #E5EAEF;
+  --surface:  #FFFFFF;
+  --ink:      #1B2A33;
+  --muted:    #5E6B73;
+  --pill:     #D4DDE3;
+  --correct:  #2E7D46;
+  --wrong:    #C2412B;
+  --hover:    #EDF1F4;
+
+  /* Form & Structure */
+  --radius:        14px;
+  --radius-pill:   999px;
+  --border-width:  2px;
+  --border:        var(--border-width) solid var(--ink);
+  --gap:           10px;
+  --pad-card:      16px 20px;
+  --maxw:          560px;
+
+  /* Typography */
+  --font-display: 'Bricolage Grotesque', system-ui, sans-serif;
+  --font-body:    'Public Sans', system-ui, sans-serif;
+  --font-mono:    'IBM Plex Mono', ui-monospace, monospace;
+}

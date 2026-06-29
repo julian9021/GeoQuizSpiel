@@ -1,0 +1,211 @@
+/* ---- Battle / Duell ---- */
+.bat-game {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 14px;
+  flex: 1;
+}
+
+/* Header */
+.bat-header {
+  text-align: center;
+  padding: 4px 0;
+}
+
+.bat-header h1 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
+}
+
+.bat-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--pill);
+  border-radius: var(--radius-pill);
+  padding: 6px 18px;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.bat-status-sep {
+  color: var(--muted);
+}
+
+.bat-category-label {
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--muted);
+  margin-top: 4px;
+}
+
+/* Question */
+.bat-question {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--ink);
+  text-align: center;
+  padding: 4px 0;
+}
+
+/* Arena */
+.bat-arena {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  flex: 1;
+}
+
+.bat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+  cursor: pointer;
+  font-family: var(--font-body);
+  transition: background 0.12s;
+  width: 100%;
+  flex: 1;
+}
+
+.bat-card:hover:not(:disabled) {
+  background: var(--hover);
+}
+
+.bat-card:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.bat-card:disabled {
+  cursor: default;
+}
+
+.bat-card.bat-correct {
+  border-color: var(--correct);
+  border-width: 3px;
+}
+
+.bat-card.bat-wrong {
+  border-color: var(--wrong);
+  border-width: 3px;
+}
+
+.bat-card.bat-reveal {
+  border-color: var(--correct);
+  border-style: dashed;
+}
+
+.bat-card-flag {
+  font-size: 2.4rem;
+}
+
+.bat-card-name {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--ink);
+}
+
+.bat-card-value {
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--muted);
+  margin-top: 2px;
+}
+
+/* Champion / Challenger badges */
+.bat-champion-badge,
+.bat-challenger-badge {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--muted);
+  margin-bottom: 2px;
+}
+
+.bat-card-value.bat-hidden {
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* VS badge */
+.bat-vs {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--muted);
+  background: var(--pill);
+  border-radius: var(--radius-pill);
+  padding: 4px 14px;
+  margin: -8px 0;
+  z-index: 1;
+  letter-spacing: 1px;
+}
+
+/* Primary button */
+.bat-btn-primary {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 17px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+
+.bat-btn-primary:hover {
+  background: #2A3D48;
+}
+
+.bat-btn-primary:active {
+  background: #0F1A20;
+}
+
+.bat-btn-primary:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Result */
+.bat-score-final {
+  font-family: var(--font-display);
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-top: 4px;
+}
+
+.bat-result-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  justify-content: center;
+  padding: 12px 0;
+}
+
+.bat-result-dot {
+  font-size: 1.4rem;
+}

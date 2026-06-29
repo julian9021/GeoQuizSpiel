@@ -1,0 +1,349 @@
+/* ---- Grenzhopping ---- */
+.gh-game {
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 14px;
+  flex: 1;
+}
+
+/* Header */
+.gh-header {
+  text-align: center;
+  padding: 4px 0;
+}
+
+.gh-header h1 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 800;
+  color: var(--ink);
+  margin-bottom: 6px;
+  letter-spacing: -0.5px;
+}
+
+.gh-route {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius-pill);
+  padding: 8px 18px;
+  display: inline-block;
+}
+
+.gh-step-count {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+/* Chain */
+.gh-chain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+
+.gh-chain-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius);
+  padding: 10px 16px;
+  width: 100%;
+  position: relative;
+}
+
+.gh-chain-item.start {
+  border-color: var(--correct);
+}
+
+.gh-chain-item.end {
+  border-color: var(--correct);
+}
+
+.gh-chain-item.goal {
+  border: var(--border-width) dashed var(--muted);
+  background: var(--paper);
+}
+
+.gh-chain-flag {
+  font-size: 1.4rem;
+}
+
+.gh-chain-name {
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.gh-chain-arrow {
+  position: absolute;
+  bottom: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: var(--muted);
+  font-size: 14px;
+  z-index: 1;
+}
+
+.gh-goal-label {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+/* Input area */
+.gh-input-area {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.gh-form {
+  display: flex;
+  gap: 8px;
+}
+
+.gh-input {
+  flex: 1;
+  padding: 12px 16px;
+  border: var(--border);
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-family: var(--font-body);
+  font-weight: 500;
+  color: var(--ink);
+  background: var(--surface);
+  outline: none;
+  transition: border-color 0.12s;
+}
+
+.gh-input:focus {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 1px var(--ink);
+}
+
+.gh-input::placeholder {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.gh-submit-btn {
+  padding: 12px 20px;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 16px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+
+.gh-submit-btn:hover {
+  background: #2A3D48;
+}
+
+.gh-submit-btn:active {
+  background: #0F1A20;
+}
+
+.gh-submit-btn:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Suggestions dropdown */
+.gh-suggestions {
+  display: flex;
+  flex-direction: column;
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.gh-suggestion {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 16px;
+  border: none;
+  background: none;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.1s;
+}
+
+.gh-suggestion:not(:last-child) {
+  border-bottom: 1px solid var(--pill);
+}
+
+.gh-suggestion:hover,
+.gh-suggestion.selected {
+  background: var(--hover);
+}
+
+.gh-suggestion:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: -2px;
+}
+
+/* Stuck / dead end */
+.gh-stuck {
+  font-size: 15px;
+  color: var(--wrong);
+  font-weight: 600;
+  padding: 12px 16px;
+  background: var(--surface);
+  border: var(--border-width) solid var(--wrong);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+/* Error */
+.gh-error {
+  font-size: 14px;
+  color: var(--wrong);
+  font-weight: 600;
+  padding: 8px 14px;
+  background: var(--surface);
+  border: var(--border-width) solid var(--wrong);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+/* Undo */
+.gh-undo-btn {
+  padding: 10px;
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  color: var(--ink);
+  cursor: pointer;
+  transition: background 0.12s;
+}
+
+.gh-undo-btn:hover {
+  background: var(--hover);
+}
+
+.gh-undo-btn:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Result screen */
+.gh-result-score {
+  text-align: center;
+  padding: 8px 0;
+}
+
+.gh-stars {
+  font-size: 1.8rem;
+  letter-spacing: 4px;
+}
+
+.gh-steps {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-top: 4px;
+}
+
+.gh-perfect {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 800;
+  color: var(--correct);
+  margin-top: 2px;
+}
+
+.gh-result-section {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.gh-result-label {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  padding-left: 4px;
+}
+
+.gh-chain-optimal .gh-chain-item {
+  border-color: var(--muted);
+  background: var(--hover);
+}
+
+.gh-restart-btn {
+  display: block;
+  width: 100%;
+  padding: 14px;
+  background: var(--ink);
+  color: var(--paper);
+  border: none;
+  border-radius: var(--radius);
+  font-size: 17px;
+  font-weight: 600;
+  font-family: var(--font-body);
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.12s;
+}
+
+.gh-restart-btn:hover {
+  background: #2A3D48;
+}
+
+.gh-restart-btn:active {
+  background: #0F1A20;
+}
+
+.gh-restart-btn:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+}
+
+/* Chain Map */
+.chain-map {
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+  min-height: 200px;
+}
+
+.chain-map-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.map-country {
+  transition: fill 0.15s;
+}
