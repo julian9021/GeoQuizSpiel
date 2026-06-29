@@ -6,7 +6,7 @@ interface Props {
   normalizedScore: number; // 0–1000
 }
 
-const MIN_PLAYERS = 5;
+const MIN_PLAYERS = 1;
 
 export default function ScoreComparison({ game, normalizedScore }: Props) {
   const [result, setResult] = useState<PercentileResult | null>(null);
