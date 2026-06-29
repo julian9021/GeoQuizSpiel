@@ -2,6 +2,9 @@ import { useState, useRef, useEffect, useMemo } from "react";
 import type { Country } from "../data/db";
 import { ALL_COUNTRIES, BY_CODE, BORDER_GRAPH } from "../data/db";
 import { generateGrenzhoppingPuzzle } from "../data/generateGrenzhopping";
+import { normalizeGrenzhoppingScore } from "../data/scores";
+import ScoreComparison from "../components/ScoreComparison";
+import "../components/scoreComparison.css";
 import ChainMap from "./ChainMap";
 import "./grenzhopping.css";
 
@@ -182,6 +185,7 @@ export default function Grenzhopping({ onRestart }: { onRestart?: () => void }) 
           </div>
         </div>
 
+        <ScoreComparison game="grenzhopping" normalizedScore={normalizeGrenzhoppingScore(steps, optimal.distance)} />
         <button className="gh-restart-btn" onClick={handleRestart}>
           Play again
         </button>

@@ -1,6 +1,9 @@
 import { useState, useMemo } from "react";
 import type { ImposterCard } from "../data/generateImposter";
 import { generateImposterPuzzle } from "../data/generateImposter";
+import { normalizeImposterScore } from "../data/scores";
+import ScoreComparison from "../components/ScoreComparison";
+import "../components/scoreComparison.css";
 import "./imposter.css";
 
 type RoundPhase = "guessing" | "feedback";
@@ -43,6 +46,7 @@ export default function Imposter({ onRestart }: { onRestart?: () => void }) {
 
   if (gamePhase === "result") {
     const score = results.filter(Boolean).length;
+    const normalized = normalizeImposterScore(score, totalRounds);
     return (
       <div className="imp-game">
         <header className="imp-header">
@@ -59,6 +63,7 @@ export default function Imposter({ onRestart }: { onRestart?: () => void }) {
           ))}
         </div>
 
+        <ScoreComparison game="imposter" normalizedScore={normalized} />
         <button className="imp-btn-primary" onClick={handleRestart}>
           Play again
         </button>

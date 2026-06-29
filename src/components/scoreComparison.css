@@ -1,0 +1,36 @@
+.score-comparison {
+  text-align: center;
+  padding: 12px 16px;
+  margin: 12px 0;
+  background: var(--surface);
+  border: var(--border);
+  border-radius: var(--radius);
+  font-family: var(--font-body);
+  color: var(--ink);
+}
+
+.score-comparison.loading {
+  color: var(--muted);
+  font-style: italic;
+}
+
+.score-comparison.few-players {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.percentile-text {
+  font-size: 1.1rem;
+}
+
+.percentile-text strong {
+  font-family: var(--font-mono);
+  font-size: 1.4rem;
+  color: var(--correct);
+}
+
+.player-count {
+  font-size: 0.8rem;
+  color: var(--muted);
+  margin-top: 4px;
+}

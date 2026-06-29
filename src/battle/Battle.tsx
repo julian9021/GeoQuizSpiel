@@ -1,5 +1,8 @@
 import { useState, useMemo } from "react";
 import { generateBattlePuzzle } from "../data/generateBattle";
+import { normalizeBattleScore } from "../data/scores";
+import ScoreComparison from "../components/ScoreComparison";
+import "../components/scoreComparison.css";
 import "./battle.css";
 
 type RoundPhase = "choosing" | "feedback";
@@ -49,6 +52,7 @@ export default function Battle({ onRestart }: { onRestart?: () => void }) {
 
   if (gamePhase === "result") {
     const score = results.filter(Boolean).length;
+    const normalized = normalizeBattleScore(score, totalRounds);
     return (
       <div className="bat-game">
         <header className="bat-header">
@@ -61,6 +65,7 @@ export default function Battle({ onRestart }: { onRestart?: () => void }) {
             <span key={i} className="bat-result-dot">{correct ? "🟩" : "🟥"}</span>
           ))}
         </div>
+        <ScoreComparison game="battle" normalizedScore={normalized} />
         <button className="bat-btn-primary" onClick={handleRestart}>
           Play again
         </button>

@@ -2,6 +2,9 @@ import { useState, useRef, useCallback, useEffect, useMemo } from "react";
 import type { Country } from "./data/db";
 import { formatPopulation, metricValue } from "./data/db";
 import { generateRankingPuzzle } from "./data/generateRanking";
+import { normalizeRankingScore } from "./data/scores";
+import ScoreComparison from "./components/ScoreComparison";
+import "./components/scoreComparison.css";
 import Grenzhopping from "./grenzhopping/Grenzhopping";
 import Imposter from "./imposter/Imposter";
 import Battle from "./battle/Battle";
@@ -313,6 +316,7 @@ function ResultScreen({
         })}
       </div>
 
+      <ScoreComparison game="ranking" normalizedScore={normalizeRankingScore(score, placed.length)} />
       <button className="restart-btn" onClick={onRestart}>
         Play again
       </button>
