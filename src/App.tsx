@@ -1,6 +1,6 @@
 import { useState, useRef, useCallback, useEffect, useMemo } from "react";
 import type { Country } from "./data/db";
-import { formatPopulation } from "./data/db";
+import { formatPopulation, metricValue } from "./data/db";
 import { generateRankingPuzzle } from "./data/generateRanking";
 import Grenzhopping from "./grenzhopping/Grenzhopping";
 import Imposter from "./imposter/Imposter";
@@ -162,7 +162,7 @@ function RankingGame({ onRestart }: { onRestart: () => void }) {
       onPointerCancel={handlePointerUp}
     >
       <header className="header">
-        <h1>Testspiel1</h1>
+        <h1>Ranking</h1>
         <div className="meta">
           {metric.label} &mdash; {metric.direction}
         </div>
@@ -253,7 +253,7 @@ function ResultScreen({
 }: {
   placed: Country[];
   correctOrder: Country[];
-  metric: { label: string; direction: string };
+  metric: { key: string; label: string; direction: string; unit: string };
   onRestart: () => void;
 }) {
   let score = 0;
@@ -261,10 +261,18 @@ function ResultScreen({
     if (country.code === correctOrder[i].code) score++;
   });
 
+  function formatVal(c: Country): string {
+    if (metric.key === "population") return formatPopulation(c.population);
+    if (metric.key === "area") return c.area.toLocaleString() + " km²";
+    const v = metricValue(c, metric.key);
+    if (metric.unit) return v.toLocaleString() + " " + metric.unit;
+    return v.toLocaleString();
+  }
+
   return (
     <div className="game">
       <header className="header">
-        <h1>Testspiel1</h1>
+        <h1>Ranking</h1>
         <div className="meta">
           {metric.label} &mdash; {metric.direction}
         </div>
@@ -291,13 +299,13 @@ function ResultScreen({
               <span className="col-yours">
                 {country.flag} {country.name}
                 <span className="pop-value">
-                  {formatPopulation(country.population)}
+                  {formatVal(country)}
                 </span>
               </span>
               <span className="col-correct">
                 {correctOrder[i].flag} {correctOrder[i].name}
                 <span className="pop-value">
-                  {formatPopulation(correctOrder[i].population)}
+                  {formatVal(correctOrder[i])}
                 </span>
               </span>
             </div>

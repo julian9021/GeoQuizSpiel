@@ -1,7 +1,7 @@
 // Daily Imposter puzzle generator
 
 import { ALL_COUNTRIES, BY_CODE, type Country } from "./db";
-import { randomSeed, mulberry32, pickN, pickOne } from "./daily";
+import { randomSeed, mulberry32, pickN, pickOne, shuffle } from "./daily";
 
 export interface ImposterCard {
   code: string;
@@ -33,6 +33,8 @@ function buildCategories(): CategoryDef[] {
   const withCurrency = ALL_COUNTRIES.filter((c) => c.currencies.length > 0);
   const withLanguage = ALL_COUNTRIES.filter((c) => c.languages.length > 0);
   const withBorders = ALL_COUNTRIES.filter((c) => c.borders.length > 0);
+  const withTld = ALL_COUNTRIES.filter((c) => c.tld && c.tld.length > 0);
+  const withCallingCode = ALL_COUNTRIES.filter((c) => c.callingCode);
 
   return [
     {
@@ -80,6 +82,22 @@ function buildCategories(): CategoryDef[] {
         return c.borders.some((b) => BY_CODE[b]?.name === v);
       },
       pool: withBorders,
+    },
+    {
+      id: "tld",
+      question: "Which domain extension is wrong?",
+      label: "TLD",
+      getValue: (c) => (c.tld && c.tld.length > 0 ? c.tld[0] : null),
+      isTrueFor: (c, v) => c.tld?.includes(v) ?? false,
+      pool: withTld,
+    },
+    {
+      id: "calling_code",
+      question: "Which calling code is wrong?",
+      label: "Calling code",
+      getValue: (c) => c.callingCode,
+      isTrueFor: (c, v) => c.callingCode === v,
+      pool: withCallingCode,
     },
   ];
 }
@@ -145,13 +163,14 @@ export function generateImposterPuzzle(seed?: number): ImposterRound[] {
   const rng = mulberry32(seed ?? randomSeed());
   const categories = buildCategories();
 
-  // 5 rounds, rising difficulty: capital, region, currency, language, borders
-  const order = [0, 1, 2, 3, 4]; // indices into categories
+  // 5 rounds from shuffled categories
+  const shuffled = shuffle(categories, rng);
   const rounds: ImposterRound[] = [];
   const usedLiars = new Set<string>();
 
-  for (const catIdx of order) {
-    const round = generateRound(rng, categories[catIdx], usedLiars);
+  for (const cat of shuffled) {
+    if (rounds.length >= 5) break;
+    const round = generateRound(rng, cat, usedLiars);
     if (round) {
       const liar = round.cards.find((c) => c.isLiar);
       if (liar) usedLiars.add(liar.code);

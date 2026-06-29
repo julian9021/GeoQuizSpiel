@@ -1,11 +1,21 @@
 // Shared country database — used by all games
 
-import countriesJson from "./countries.json";
+import data from "./countries.json";
+
+export interface MetricMeta {
+  label: string;
+  unit: string;
+  order: string;
+  question: string;
+  source: string;
+  year: number | null;
+}
 
 export interface Country {
   code: string;
   name: string;
   flag: string;
+  flagImage: string | null;
   capital: string | null;
   region: string;
   subregion: string;
@@ -14,9 +24,17 @@ export interface Country {
   borders: string[];
   currencies: string[];
   languages: string[];
+  tld: string[];
+  callingCode: string | null;
+  carSide: string | null;
+  metrics: Record<string, number | null>;
 }
 
-export const ALL_COUNTRIES: Country[] = countriesJson as Country[];
+const db = data as { meta: { generated: string; metrics: Record<string, MetricMeta> }; countries: Country[] };
+
+export const META = db.meta;
+export const METRIC_DEFS = db.meta.metrics;
+export const ALL_COUNTRIES: Country[] = db.countries;
 
 // Lookup maps
 export const BY_CODE: Record<string, Country> = {};
@@ -75,4 +93,14 @@ export function formatPopulation(n: number): string {
 
 export function formatArea(n: number): string {
   return n.toLocaleString() + " km²";
+}
+
+/** Get all countries that have a non-null value for a given metric */
+export function countriesWithMetric(key: string): Country[] {
+  return ALL_COUNTRIES.filter((c) => c.metrics[key] != null);
+}
+
+/** Get metric value for a country, falling back to 0 */
+export function metricValue(c: Country, key: string): number {
+  return c.metrics[key] ?? 0;
 }

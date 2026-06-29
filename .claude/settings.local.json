@@ -9,7 +9,17 @@
       "Bash(ls:*)",
       "WebFetch(domain:restcountries.com)",
       "Bash(git init:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(gh auth:*)",
+      "Bash(gh repo:*)",
+      "Bash(npx netlify-cli:*)",
+      "Bash(npm -v)",
+      "Bash(npm pkg:*)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('lockfileVersion:', d.get\\('lockfileVersion'\\)\\); [print\\(f'  {k}: {v.get\\(\\\\\"version\\\\\",\\\\\"MISSING\\\\\"\\)}'\\) for k,v in list\\(d.get\\('packages',{}\\).items\\(\\)\\)[:5]]\")",
+      "Bash(npm ls:*)",
+      "Bash(git push:*)",
+      "Bash(python3:*)"
     ]
   }
 }
