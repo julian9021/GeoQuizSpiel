@@ -19,7 +19,10 @@
       "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\('lockfileVersion:', d.get\\('lockfileVersion'\\)\\); [print\\(f'  {k}: {v.get\\(\\\\\"version\\\\\",\\\\\"MISSING\\\\\"\\)}'\\) for k,v in list\\(d.get\\('packages',{}\\).items\\(\\)\\)[:5]]\")",
       "Bash(npm ls:*)",
       "Bash(git push:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "Bash(sort -t: -k2 -n)",
+      "WebFetch(domain:raw.githubusercontent.com)"
     ]
   }
 }

@@ -53,3 +53,33 @@ security definer
 as $$
   select count(*)::int from scores where game = g and puzzle_date = d;
 $$;
+
+-- 7. Rank function: returns how many players scored strictly higher + 1
+create or replace function score_rank(g text, d date, s int)
+returns int
+language sql
+security definer
+as $$
+  select coalesce(
+    (select count(*)::int + 1 from scores where game = g and puzzle_date = d and score > s),
+    1
+  );
+$$;
+
+-- 8. Histogram: returns score distribution in 10 buckets (0-99, 100-199, ..., 900-1000)
+create or replace function score_histogram(g text, d date)
+returns json
+language sql
+security definer
+as $$
+  select coalesce(
+    json_agg(json_build_object('bucket', bucket, 'count', cnt) order by bucket),
+    '[]'::json
+  )
+  from (
+    select least(floor(score / 100)::int, 9) as bucket, count(*)::int as cnt
+    from scores
+    where game = g and puzzle_date = d
+    group by bucket
+  ) sub;
+$$;

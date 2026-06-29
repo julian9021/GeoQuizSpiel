@@ -98,7 +98,8 @@ export function generateBattlePuzzle(seed?: number): BattlePuzzle {
     const vals = candidates.map((c) => config.getValue(c)).sort((a, b) => a - b);
     let ok = true;
     for (let i = 0; i < vals.length - 1; i++) {
-      if (vals[i] > 0 && vals[i + 1] / vals[i] < 1.05) {
+      // Reject identical values (ties) or values too close together
+      if (vals[i] === vals[i + 1] || (vals[i] > 0 && vals[i + 1] / vals[i] < 1.05)) {
         ok = false;
         break;
       }
@@ -109,8 +110,18 @@ export function generateBattlePuzzle(seed?: number): BattlePuzzle {
     }
   }
 
+  // Fallback: still ensure no exact ties between adjacent countries in chain
   if (picked.length < 11) {
-    picked = shuffle(pool, rng).slice(0, 11);
+    const shuffled = shuffle(pool, rng);
+    const seen = new Set<number>();
+    picked = [];
+    for (const c of shuffled) {
+      const v = config.getValue(c);
+      if (seen.has(v)) continue;
+      seen.add(v);
+      picked.push(c);
+      if (picked.length === 11) break;
+    }
   }
 
   return {

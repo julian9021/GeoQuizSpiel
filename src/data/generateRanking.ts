@@ -103,7 +103,8 @@ export function generateRankingPuzzle(seed?: number): RankingPuzzle {
     for (let i = 0; i < sorted.length - 1; i++) {
       const high = option.getValue(sorted[i]);
       const low = option.getValue(sorted[i + 1]);
-      if (high > 0 && low / high > option.minSpreadRatio) {
+      // Reject if values are identical (tie) or too close
+      if (high === low || (high > 0 && low / high > option.minSpreadRatio)) {
         ok = false;
         break;
       }
@@ -114,9 +115,18 @@ export function generateRankingPuzzle(seed?: number): RankingPuzzle {
     }
   }
 
-  // Fallback
+  // Fallback: still ensure no exact ties
   if (picked.length < 10) {
-    picked = pickN(option.pool, 10, rng);
+    const shuffled = shuffle(option.pool, rng);
+    const seen = new Set<number>();
+    picked = [];
+    for (const c of shuffled) {
+      const v = option.getValue(c);
+      if (seen.has(v)) continue;
+      seen.add(v);
+      picked.push(c);
+      if (picked.length === 10) break;
+    }
   }
 
   const correctOrder = [...picked].sort((a, b) => option.getValue(b) - option.getValue(a));

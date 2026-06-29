@@ -92,8 +92,7 @@ const SAMAYO_DATASETS = [
   { file: "country-by-population.json", field: "population", metricKey: null, valueField: "population" },
   { file: "country-by-life-expectancy.json", field: null, metricKey: "life_exp", valueField: "expectancy" },
   { file: "country-by-avg-male-height.json", field: null, metricKey: "height", valueField: "height" },
-  { file: "country-by-coastline.json", field: null, metricKey: "coast", valueField: "coastline" },
-  { file: "country-by-elevation.json", field: null, metricKey: "peak", valueField: "elevation" },
+  // coastline + elevation: using data-raw CSVs instead (samayo data has formatting issues)
   { file: "country-by-surface-area.json", field: null, metricKey: "area_metric", valueField: "area" },
   { file: "country-by-driving-side.json", field: "carSide", metricKey: null, valueField: "side" },
 ];

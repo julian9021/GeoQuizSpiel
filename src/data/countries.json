@@ -88,8 +88,8 @@
         "neighbors": 6,
         "life_exp": 45.9,
         "height": 168,
-        "coast": 0,
-        "area_metric": 652090
+        "area_metric": 652090,
+        "peak": 7492
       }
     },
     {
@@ -122,9 +122,9 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 38.3,
-        "coast": 1.6,
-        "peak": 1112,
-        "area_metric": 1246700
+        "area_metric": 1246700,
+        "coast": 1600,
+        "peak": 2620
       }
     },
     {
@@ -158,8 +158,9 @@
         "neighbors": 4,
         "life_exp": 71.6,
         "height": 174,
+        "area_metric": 28748,
         "coast": 362,
-        "area_metric": 28748
+        "peak": 2764
       }
     },
     {
@@ -191,9 +192,8 @@
         "neighbors": 2,
         "life_exp": 83.5,
         "height": 178,
-        "coast": 0,
-        "peak": 1996,
-        "area_metric": 468
+        "area_metric": 468,
+        "peak": 2943
       }
     },
     {
@@ -226,9 +226,9 @@
         "neighbors": 2,
         "life_exp": 74.1,
         "height": 173.4,
-        "coast": 1.318,
-        "peak": 149,
-        "area_metric": 83600
+        "area_metric": 83600,
+        "coast": 1318,
+        "peak": 1934
       }
     },
     {
@@ -264,9 +264,9 @@
         "neighbors": 5,
         "life_exp": 75.1,
         "height": 171.3,
-        "coast": 4.989,
-        "peak": 595,
-        "area_metric": 2780400
+        "area_metric": 2780400,
+        "coast": 4989,
+        "peak": 6961
       }
     },
     {
@@ -299,9 +299,8 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 66.4,
-        "coast": 0,
-        "peak": 1792,
-        "area_metric": 29800
+        "area_metric": 29800,
+        "peak": 4090
       }
     },
     {
@@ -329,8 +328,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 70.5,
+        "area_metric": 442,
         "coast": 153,
-        "area_metric": 442
+        "peak": 402
       }
     },
     {
@@ -359,9 +359,9 @@
         "neighbors": 0,
         "life_exp": 79.8,
         "height": 176.3,
-        "coast": 25.76,
-        "peak": 330,
-        "area_metric": 7741220
+        "area_metric": 7741220,
+        "coast": 25760,
+        "peak": 2228
       }
     },
     {
@@ -399,9 +399,8 @@
         "neighbors": 8,
         "life_exp": 77.7,
         "height": 177,
-        "coast": 0,
-        "peak": 910,
-        "area_metric": 83859
+        "area_metric": 83859,
+        "peak": 3798
       }
     },
     {
@@ -437,9 +436,8 @@
         "neighbors": 5,
         "life_exp": 62.9,
         "height": 172,
-        "coast": 0,
-        "peak": 384,
-        "area_metric": 86600
+        "area_metric": 86600,
+        "peak": 4466
       }
     },
     {
@@ -472,9 +470,8 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 46.2,
-        "coast": 0,
-        "peak": 1504,
-        "area_metric": 27834
+        "area_metric": 27834,
+        "peak": 2684
       }
     },
     {
@@ -510,8 +507,9 @@
         "neighbors": 4,
         "life_exp": 77.8,
         "height": 176.6,
-        "coast": 66.5,
-        "area_metric": 30518
+        "area_metric": 30518,
+        "coast": 66,
+        "peak": 694
       }
     },
     {
@@ -544,9 +542,9 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 50.2,
+        "area_metric": 112622,
         "coast": 121,
-        "peak": 273,
-        "area_metric": 112622
+        "peak": 658
       }
     },
     {
@@ -581,9 +579,8 @@
       "metrics": {
         "neighbors": 6,
         "life_exp": 46.7,
-        "coast": 0,
-        "peak": 297,
-        "area_metric": 274000
+        "area_metric": 274000,
+        "peak": 747
       }
     },
     {
@@ -614,9 +611,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 60.2,
+        "area_metric": 143998,
         "coast": 580,
-        "peak": 85,
-        "area_metric": 143998
+        "peak": 766
       }
     },
     {
@@ -650,9 +647,9 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 70.9,
+        "area_metric": 110994,
         "coast": 354,
-        "peak": 472,
-        "area_metric": 110994
+        "peak": 2925
       }
     },
     {
@@ -681,8 +678,9 @@
         "neighbors": 0,
         "life_exp": 73,
         "height": 165.6,
+        "area_metric": 694,
         "coast": 161,
-        "area_metric": 694
+        "peak": 134
       }
     },
     {
@@ -711,7 +709,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 71.1,
-        "area_metric": 13878
+        "area_metric": 13878,
+        "coast": 3542,
+        "peak": 63
       }
     },
     {
@@ -745,9 +745,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 71.5,
+        "area_metric": 51197,
         "coast": 20,
-        "peak": 500,
-        "area_metric": 51197
+        "peak": 2386
       }
     },
     {
@@ -782,9 +782,8 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 68,
-        "coast": 0,
-        "peak": 160,
-        "area_metric": 207600
+        "area_metric": 207600,
+        "peak": 345
       }
     },
     {
@@ -817,9 +816,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 70.9,
+        "area_metric": 22696,
         "coast": 386,
-        "peak": 173,
-        "area_metric": 22696
+        "peak": 1124
       }
     },
     {
@@ -856,9 +855,8 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 63.7,
-        "coast": 0,
-        "peak": 1192,
-        "area_metric": 1098581
+        "area_metric": 1098581,
+        "peak": 6542
       }
     },
     {
@@ -898,9 +896,9 @@
         "neighbors": 10,
         "life_exp": 62.9,
         "height": 169.5,
-        "coast": 7.491,
-        "peak": 320,
-        "area_metric": 8547403
+        "area_metric": 8547403,
+        "coast": 7491,
+        "peak": 2995
       }
     },
     {
@@ -928,8 +926,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 73,
+        "area_metric": 430,
         "coast": 97,
-        "area_metric": 430
+        "peak": 340
       }
     },
     {
@@ -960,9 +959,9 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 73.6,
+        "area_metric": 5765,
         "coast": 161,
-        "peak": 478,
-        "area_metric": 5765
+        "peak": 1875
       }
     },
     {
@@ -994,9 +993,8 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 52.4,
-        "coast": 0,
-        "peak": 3280,
-        "area_metric": 47000
+        "area_metric": 47000,
+        "peak": 7571
       }
     },
     {
@@ -1030,9 +1028,8 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 39.3,
-        "coast": 0,
-        "peak": 1013,
-        "area_metric": 581730
+        "area_metric": 581730,
+        "peak": 1494
       }
     },
     {
@@ -1068,9 +1065,8 @@
       "metrics": {
         "neighbors": 6,
         "life_exp": 44,
-        "coast": 0,
-        "peak": 635,
-        "area_metric": 622984
+        "area_metric": 622984,
+        "peak": 1410
       }
     },
     {
@@ -1102,9 +1098,9 @@
         "neighbors": 1,
         "life_exp": 79.4,
         "height": 174.3,
-        "coast": 202.08,
-        "peak": 487,
-        "area_metric": 9970610
+        "area_metric": 9970610,
+        "coast": 202080,
+        "peak": 5959
       }
     },
     {
@@ -1142,9 +1138,8 @@
         "neighbors": 5,
         "life_exp": 79.6,
         "height": 176.5,
-        "coast": 0,
-        "peak": 1350,
-        "area_metric": 41284
+        "area_metric": 41284,
+        "peak": 4634
       }
     },
     {
@@ -1177,9 +1172,9 @@
         "neighbors": 3,
         "life_exp": 75.7,
         "height": 169.2,
-        "coast": 6.435,
-        "peak": 1871,
-        "area_metric": 756626
+        "area_metric": 756626,
+        "coast": 6435,
+        "peak": 6893
       }
     },
     {
@@ -1229,9 +1224,9 @@
         "neighbors": 16,
         "life_exp": 71.4,
         "height": 168.3,
-        "coast": 14.5,
-        "peak": 1840,
-        "area_metric": 9572900
+        "area_metric": 9572900,
+        "coast": 14500,
+        "peak": 8849
       }
     },
     {
@@ -1266,9 +1261,9 @@
         "neighbors": 5,
         "life_exp": 45.2,
         "height": 170.4,
+        "area_metric": 322463,
         "coast": 515,
-        "peak": 250,
-        "area_metric": 322463
+        "peak": 1752
       }
     },
     {
@@ -1305,9 +1300,9 @@
         "neighbors": 6,
         "life_exp": 54.8,
         "height": 170,
+        "area_metric": 475442,
         "coast": 402,
-        "peak": 667,
-        "area_metric": 475442
+        "peak": 4040
       }
     },
     {
@@ -1347,7 +1342,9 @@
       "callingCode": "+243",
       "carSide": null,
       "metrics": {
-        "neighbors": 9
+        "neighbors": 9,
+        "coast": 37,
+        "peak": 5109
       }
     },
     {
@@ -1383,8 +1380,9 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 47.4,
-        "peak": 430,
-        "area_metric": 342000
+        "area_metric": 342000,
+        "coast": 169,
+        "peak": 1020
       }
     },
     {
@@ -1419,9 +1417,9 @@
         "neighbors": 5,
         "life_exp": 70.3,
         "height": 169.5,
-        "coast": 3.208,
-        "peak": 593,
-        "area_metric": 1138914
+        "area_metric": 1138914,
+        "coast": 3208,
+        "peak": 5775
       }
     },
     {
@@ -1451,8 +1449,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 60,
+        "area_metric": 1862,
         "coast": 340,
-        "area_metric": 1862
+        "peak": 2361
       }
     },
     {
@@ -1480,8 +1479,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 68.9,
+        "area_metric": 4033,
         "coast": 965,
-        "area_metric": 4033
+        "peak": 2829
       }
     },
     {
@@ -1512,9 +1512,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 75.8,
-        "coast": 1.29,
-        "peak": 746,
-        "area_metric": 51100
+        "area_metric": 51100,
+        "coast": 1290,
+        "peak": 3821
       }
     },
     {
@@ -1543,9 +1543,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 76.2,
-        "coast": 3.735,
-        "peak": 108,
-        "area_metric": 110861
+        "area_metric": 110861,
+        "coast": 3735,
+        "peak": 1974
       }
     },
     {
@@ -1574,9 +1574,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 76.7,
+        "area_metric": 9251,
         "coast": 648,
-        "peak": 91,
-        "area_metric": 9251
+        "peak": 1952
       }
     },
     {
@@ -1611,9 +1611,8 @@
         "neighbors": 4,
         "life_exp": 74.5,
         "height": 178.3,
-        "coast": 0,
-        "peak": 433,
-        "area_metric": 78866
+        "area_metric": 78866,
+        "peak": 1603
       }
     },
     {
@@ -1652,9 +1651,9 @@
         "neighbors": 9,
         "life_exp": 77.4,
         "height": 177.4,
-        "coast": 2.389,
-        "peak": 263,
-        "area_metric": 357022
+        "area_metric": 357022,
+        "coast": 2389,
+        "peak": 2962
       }
     },
     {
@@ -1687,9 +1686,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 50.8,
+        "area_metric": 23200,
         "coast": 314,
-        "peak": 430,
-        "area_metric": 23200
+        "peak": 2021
       }
     },
     {
@@ -1717,8 +1716,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 73.4,
+        "area_metric": 751,
         "coast": 148,
-        "area_metric": 751
+        "peak": 1447
       }
     },
     {
@@ -1749,9 +1749,9 @@
         "neighbors": 1,
         "life_exp": 76.5,
         "height": 178.8,
-        "coast": 7.314,
-        "peak": 34,
-        "area_metric": 43094
+        "area_metric": 43094,
+        "coast": 7314,
+        "peak": 171
       }
     },
     {
@@ -1781,9 +1781,9 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 73.2,
-        "coast": 1.288,
-        "peak": 424,
-        "area_metric": 48511
+        "area_metric": 48511,
+        "coast": 1288,
+        "peak": 3101
       }
     },
     {
@@ -1821,9 +1821,9 @@
         "neighbors": 7,
         "life_exp": 69.7,
         "height": 170.2,
+        "area_metric": 2381741,
         "coast": 998,
-        "peak": 800,
-        "area_metric": 2381741
+        "peak": 2908
       }
     },
     {
@@ -1854,9 +1854,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 71.1,
-        "coast": 2.237,
-        "peak": 1117,
-        "area_metric": 283561
+        "area_metric": 283561,
+        "coast": 2237,
+        "peak": 6263
       }
     },
     {
@@ -1891,9 +1891,9 @@
         "neighbors": 4,
         "life_exp": 63.3,
         "height": 170.3,
-        "coast": 2.45,
-        "peak": 321,
-        "area_metric": 1001449
+        "area_metric": 1001449,
+        "coast": 2450,
+        "peak": 2629
       }
     },
     {
@@ -1928,9 +1928,9 @@
         "neighbors": 3,
         "life_exp": 55.8,
         "height": 175.8,
-        "coast": 2.234,
-        "peak": 853,
-        "area_metric": 117600
+        "area_metric": 117600,
+        "coast": 2234,
+        "peak": 3018
       }
     },
     {
@@ -1965,9 +1965,9 @@
         "neighbors": 5,
         "life_exp": 78.8,
         "height": 172,
-        "coast": 4.964,
-        "peak": 660,
-        "area_metric": 505992
+        "area_metric": 505992,
+        "coast": 4964,
+        "peak": 3715
       }
     },
     {
@@ -1999,9 +1999,9 @@
         "neighbors": 2,
         "life_exp": 69.5,
         "height": 177.1,
-        "coast": 3.794,
-        "peak": 61,
-        "area_metric": 45227
+        "area_metric": 45227,
+        "coast": 3794,
+        "peak": 318
       }
     },
     {
@@ -2036,9 +2036,8 @@
       "metrics": {
         "neighbors": 6,
         "life_exp": 45.2,
-        "coast": 0,
-        "peak": 1330,
-        "area_metric": 1104300
+        "area_metric": 1104300,
+        "peak": 4550
       }
     },
     {
@@ -2072,9 +2071,9 @@
         "neighbors": 3,
         "life_exp": 77.4,
         "height": 178.4,
-        "coast": 1.25,
-        "peak": 164,
-        "area_metric": 338145
+        "area_metric": 338145,
+        "coast": 1250,
+        "peak": 1324
       }
     },
     {
@@ -2102,7 +2101,9 @@
       "callingCode": "+679",
       "carSide": null,
       "metrics": {
-        "neighbors": 0
+        "neighbors": 0,
+        "coast": 1129,
+        "peak": 1324
       }
     },
     {
@@ -2140,8 +2141,9 @@
         "neighbors": 8,
         "life_exp": 78.8,
         "height": 174.1,
-        "peak": 375,
-        "area_metric": 551500
+        "area_metric": 551500,
+        "coast": 4853,
+        "peak": 4806
       }
     },
     {
@@ -2165,7 +2167,9 @@
       "callingCode": "+691",
       "carSide": null,
       "metrics": {
-        "neighbors": 0
+        "neighbors": 0,
+        "coast": 6112,
+        "peak": 782
       }
     },
     {
@@ -2197,9 +2201,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 50.1,
+        "area_metric": 267668,
         "coast": 885,
-        "peak": 377,
-        "area_metric": 267668
+        "peak": 1070
       }
     },
     {
@@ -2230,8 +2234,9 @@
         "neighbors": 1,
         "life_exp": 77.7,
         "height": 175.4,
-        "coast": 12.429,
-        "area_metric": 242900
+        "area_metric": 242900,
+        "coast": 12429,
+        "peak": 1345
       }
     },
     {
@@ -2264,9 +2269,9 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 64.5,
+        "area_metric": 69700,
         "coast": 310,
-        "peak": 1432,
-        "area_metric": 69700
+        "peak": 5203
       }
     },
     {
@@ -2299,9 +2304,9 @@
         "neighbors": 3,
         "life_exp": 57.4,
         "height": 169.8,
+        "area_metric": 238533,
         "coast": 539,
-        "peak": 190,
-        "area_metric": 238533
+        "peak": 900
       }
     },
     {
@@ -2336,9 +2341,9 @@
       "metrics": {
         "neighbors": 6,
         "life_exp": 45.6,
+        "area_metric": 245857,
         "coast": 320,
-        "peak": 472,
-        "area_metric": 245857
+        "peak": 1752
       }
     },
     {
@@ -2369,9 +2374,9 @@
         "neighbors": 1,
         "life_exp": 53.2,
         "height": 170,
+        "area_metric": 11295,
         "coast": 80,
-        "peak": 34,
-        "area_metric": 11295
+        "peak": 51
       }
     },
     {
@@ -2403,9 +2408,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 49,
+        "area_metric": 36125,
         "coast": 350,
-        "peak": 70,
-        "area_metric": 36125
+        "peak": 266
       }
     },
     {
@@ -2438,9 +2443,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 53.6,
+        "area_metric": 28051,
         "coast": 296,
-        "peak": 577,
-        "area_metric": 28051
+        "peak": 3011
       }
     },
     {
@@ -2474,9 +2479,9 @@
         "neighbors": 4,
         "life_exp": 78.4,
         "height": 175.7,
-        "coast": 13.676,
-        "peak": 498,
-        "area_metric": 131626
+        "area_metric": 131626,
+        "coast": 13676,
+        "peak": 2918
       }
     },
     {
@@ -2504,8 +2509,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 64.5,
+        "area_metric": 344,
         "coast": 121,
-        "area_metric": 344
+        "peak": 840
       }
     },
     {
@@ -2538,9 +2544,9 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 66.2,
+        "area_metric": 108889,
         "coast": 400,
-        "peak": 759,
-        "area_metric": 108889
+        "peak": 4203
       }
     },
     {
@@ -2572,9 +2578,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 64,
+        "area_metric": 214969,
         "coast": 459,
-        "peak": 207,
-        "area_metric": 214969
+        "peak": 2772
       }
     },
     {
@@ -2607,8 +2613,8 @@
         "neighbors": 1,
         "life_exp": 79.5,
         "height": 168.5,
-        "coast": 733,
-        "area_metric": 1075
+        "area_metric": 1075,
+        "peak": 957
       }
     },
     {
@@ -2640,9 +2646,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 69.9,
+        "area_metric": 112088,
         "coast": 832,
-        "peak": 684,
-        "area_metric": 112088
+        "peak": 2870
       }
     },
     {
@@ -2677,9 +2683,9 @@
         "neighbors": 5,
         "life_exp": 73.7,
         "height": 177.6,
-        "coast": 6.268,
-        "peak": 331,
-        "area_metric": 56538
+        "area_metric": 56538,
+        "coast": 5835,
+        "peak": 1831
       }
     },
     {
@@ -2710,9 +2716,9 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 49.2,
-        "coast": 1.771,
-        "peak": 470,
-        "area_metric": 27750
+        "area_metric": 27750,
+        "coast": 1771,
+        "peak": 2680
       }
     },
     {
@@ -2749,9 +2755,8 @@
         "neighbors": 7,
         "life_exp": 71.4,
         "height": 175.3,
-        "coast": 0,
-        "peak": 143,
-        "area_metric": 93030
+        "area_metric": 93030,
+        "peak": 1014
       }
     },
     {
@@ -2784,9 +2789,9 @@
         "neighbors": 3,
         "life_exp": 70.1,
         "height": 161.5,
-        "coast": 54.716,
-        "peak": 367,
-        "area_metric": 1904569
+        "area_metric": 1904569,
+        "coast": 54716,
+        "peak": 4884
       }
     },
     {
@@ -2824,9 +2829,9 @@
         "neighbors": 6,
         "life_exp": 62.5,
         "height": 162.3,
-        "coast": 7,
-        "peak": 160,
-        "area_metric": 3287263
+        "area_metric": 3287263,
+        "coast": 11098,
+        "peak": 8586
       }
     },
     {
@@ -2858,9 +2863,9 @@
         "neighbors": 1,
         "life_exp": 76.8,
         "height": 175,
-        "coast": 1.448,
-        "peak": 118,
-        "area_metric": 70273
+        "area_metric": 70273,
+        "coast": 1448,
+        "peak": 1039
       }
     },
     {
@@ -2898,9 +2903,9 @@
         "neighbors": 7,
         "life_exp": 69.7,
         "height": 170.6,
-        "coast": 3.294,
-        "peak": 1305,
-        "area_metric": 1648195
+        "area_metric": 1648195,
+        "coast": 2440,
+        "peak": 5609
       }
     },
     {
@@ -2938,9 +2943,9 @@
         "neighbors": 6,
         "life_exp": 66.5,
         "height": 165.4,
+        "area_metric": 438317,
         "coast": 58,
-        "peak": 312,
-        "area_metric": 438317
+        "peak": 3611
       }
     },
     {
@@ -2969,9 +2974,9 @@
         "neighbors": 0,
         "life_exp": 79.4,
         "height": 179.8,
-        "coast": 4.97,
-        "peak": 557,
-        "area_metric": 103000
+        "area_metric": 103000,
+        "coast": 4970,
+        "peak": 2110
       }
     },
     {
@@ -3007,9 +3012,9 @@
         "neighbors": 5,
         "life_exp": 78.6,
         "height": 175,
+        "area_metric": 21056,
         "coast": 273,
-        "peak": 508,
-        "area_metric": 21056
+        "peak": 1204
       }
     },
     {
@@ -3045,9 +3050,9 @@
         "neighbors": 6,
         "life_exp": 79,
         "height": 173.2,
-        "coast": 7.6,
-        "peak": 538,
-        "area_metric": 301316
+        "area_metric": 301316,
+        "coast": 7600,
+        "peak": 4806
       }
     },
     {
@@ -3077,9 +3082,9 @@
         "neighbors": 0,
         "life_exp": 75.2,
         "height": 172.8,
-        "coast": 1.022,
-        "peak": 18,
-        "area_metric": 10990
+        "area_metric": 10990,
+        "coast": 1022,
+        "peak": 2256
       }
     },
     {
@@ -3114,9 +3119,9 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 77.4,
+        "area_metric": 88946,
         "coast": 26,
-        "peak": 812,
-        "area_metric": 88946
+        "peak": 1854
       }
     },
     {
@@ -3146,9 +3151,9 @@
         "neighbors": 0,
         "life_exp": 80.7,
         "height": 168.6,
-        "coast": 29.751,
-        "peak": 438,
-        "area_metric": 377829
+        "area_metric": 377829,
+        "coast": 29751,
+        "peak": 3776
       }
     },
     {
@@ -3184,7 +3189,8 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 63.2,
-        "area_metric": 2724900
+        "area_metric": 2724900,
+        "peak": 7010
       }
     },
     {
@@ -3219,9 +3225,9 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 48,
+        "area_metric": 580367,
         "coast": 536,
-        "peak": 762,
-        "area_metric": 580367
+        "peak": 5199
       }
     },
     {
@@ -3255,9 +3261,8 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 63.4,
-        "coast": 0,
-        "peak": 2988,
-        "area_metric": 199900
+        "area_metric": 199900,
+        "peak": 7439
       }
     },
     {
@@ -3291,9 +3296,9 @@
         "neighbors": 3,
         "life_exp": 56.5,
         "height": 160.3,
+        "area_metric": 181035,
         "coast": 443,
-        "peak": 126,
-        "area_metric": 181035
+        "peak": 1813
       }
     },
     {
@@ -3323,8 +3328,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 59.8,
-        "coast": 1.143,
-        "area_metric": 726
+        "area_metric": 726,
+        "coast": 1143,
+        "peak": 81
       }
     },
     {
@@ -3352,8 +3358,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 70.7,
+        "area_metric": 261,
         "coast": 135,
-        "area_metric": 261
+        "peak": 1156
       }
     },
     {
@@ -3384,8 +3391,9 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 74.4,
-        "peak": 282,
-        "area_metric": 99434
+        "area_metric": 99434,
+        "coast": 2413,
+        "peak": 1947
       }
     },
     {
@@ -3416,9 +3424,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 76.1,
+        "area_metric": 17818,
         "coast": 499,
-        "peak": 108,
-        "area_metric": 17818
+        "peak": 291
       }
     },
     {
@@ -3452,9 +3460,8 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 53.1,
-        "coast": 0,
-        "peak": 710,
-        "area_metric": 236800
+        "area_metric": 236800,
+        "peak": 2830
       }
     },
     {
@@ -3487,9 +3494,9 @@
         "neighbors": 2,
         "life_exp": 71.3,
         "height": 174.2,
+        "area_metric": 10400,
         "coast": 225,
-        "peak": 1250,
-        "area_metric": 10400
+        "peak": 3088
       }
     },
     {
@@ -3521,9 +3528,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 51,
+        "area_metric": 111369,
         "coast": 579,
-        "peak": 243,
-        "area_metric": 111369
+        "peak": 1447
       }
     },
     {
@@ -3558,7 +3565,9 @@
       "metrics": {
         "neighbors": 6,
         "life_exp": 75.5,
-        "area_metric": 1759540
+        "area_metric": 1759540,
+        "coast": 1770,
+        "peak": 2267
       }
     },
     {
@@ -3586,8 +3595,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 72.3,
+        "area_metric": 622,
         "coast": 158,
-        "area_metric": 622
+        "peak": 950
       }
     },
     {
@@ -3618,8 +3628,8 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 78.8,
-        "coast": 0,
-        "area_metric": 160
+        "area_metric": 160,
+        "peak": 2599
       }
     },
     {
@@ -3652,7 +3662,9 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 75.5,
-        "area_metric": 65610
+        "area_metric": 65610,
+        "coast": 1340,
+        "peak": 2524
       }
     },
     {
@@ -3684,9 +3696,8 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 50.8,
-        "coast": 0,
-        "peak": 2161,
-        "area_metric": 30355
+        "area_metric": 30355,
+        "peak": 3482
       }
     },
     {
@@ -3720,9 +3731,9 @@
         "neighbors": 4,
         "life_exp": 69.1,
         "height": 175,
+        "area_metric": 65301,
         "coast": 90,
-        "peak": 110,
-        "area_metric": 65301
+        "peak": 294
       }
     },
     {
@@ -3757,9 +3768,8 @@
         "neighbors": 3,
         "life_exp": 77.1,
         "height": 178,
-        "coast": 0,
-        "peak": 325,
-        "area_metric": 2586
+        "area_metric": 2586,
+        "peak": 560
       }
     },
     {
@@ -3792,9 +3802,9 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 68.4,
+        "area_metric": 64589,
         "coast": 498,
-        "peak": 87,
-        "area_metric": 64589
+        "peak": 312
       }
     },
     {
@@ -3825,7 +3835,8 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 81.6,
-        "area_metric": 18
+        "area_metric": 18,
+        "peak": 172
       }
     },
     {
@@ -3860,9 +3871,9 @@
         "neighbors": 3,
         "life_exp": 69.1,
         "height": 170.7,
-        "coast": 1.835,
-        "peak": 909,
-        "area_metric": 446550
+        "area_metric": 446550,
+        "coast": 2945,
+        "peak": 4167
       }
     },
     {
@@ -3892,8 +3903,9 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 78.8,
-        "coast": 4.1,
-        "area_metric": 1.5
+        "area_metric": 1.5,
+        "coast": 4,
+        "peak": 162
       }
     },
     {
@@ -3924,9 +3936,8 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 64.5,
-        "coast": 0,
-        "peak": 139,
-        "area_metric": 33851
+        "area_metric": 33851,
+        "peak": 430
       }
     },
     {
@@ -3955,9 +3966,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 55,
-        "coast": 4.828,
-        "peak": 615,
-        "area_metric": 587041
+        "area_metric": 587041,
+        "coast": 4828,
+        "peak": 2876
       }
     },
     {
@@ -3985,9 +3996,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 62.2,
+        "area_metric": 298,
         "coast": 644,
-        "peak": 1.8,
-        "area_metric": 298
+        "peak": 5
       }
     },
     {
@@ -4020,9 +4031,9 @@
         "neighbors": 3,
         "life_exp": 71.5,
         "height": 167.5,
-        "coast": 9.33,
-        "peak": 1111,
-        "area_metric": 1958201
+        "area_metric": 1958201,
+        "coast": 9330,
+        "peak": 5636
       }
     },
     {
@@ -4051,8 +4062,8 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 65.5,
-        "coast": 370.4,
-        "area_metric": 181
+        "area_metric": 181,
+        "peak": 10
       }
     },
     {
@@ -4086,8 +4097,8 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 73.8,
-        "peak": 741,
-        "area_metric": 25713
+        "area_metric": 25713,
+        "peak": 2764
       }
     },
     {
@@ -4124,9 +4135,8 @@
         "neighbors": 7,
         "life_exp": 46.7,
         "height": 172.5,
-        "coast": 0,
-        "peak": 343,
-        "area_metric": 1240192
+        "area_metric": 1240192,
+        "peak": 1155
       }
     },
     {
@@ -4155,8 +4165,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 77.9,
-        "coast": 252.81,
-        "area_metric": 316
+        "area_metric": 316,
+        "coast": 252,
+        "peak": 253
       }
     },
     {
@@ -4190,7 +4201,9 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 54.9,
-        "area_metric": 676578
+        "area_metric": 676578,
+        "coast": 1930,
+        "peak": 5881
       }
     },
     {
@@ -4222,7 +4235,9 @@
       "callingCode": "+382",
       "carSide": "right",
       "metrics": {
-        "neighbors": 5
+        "neighbors": 5,
+        "coast": 293,
+        "peak": 2534
       }
     },
     {
@@ -4254,9 +4269,8 @@
         "neighbors": 2,
         "life_exp": 67.3,
         "height": 166.4,
-        "coast": 0,
-        "peak": 1528,
-        "area_metric": 1566500
+        "area_metric": 1566500,
+        "peak": 4356
       }
     },
     {
@@ -4291,9 +4305,9 @@
       "metrics": {
         "neighbors": 6,
         "life_exp": 37.5,
-        "coast": 2.47,
-        "peak": 345,
-        "area_metric": 801590
+        "area_metric": 801590,
+        "coast": 2470,
+        "peak": 2440
       }
     },
     {
@@ -4326,9 +4340,9 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 50.8,
+        "area_metric": 1025520,
         "coast": 754,
-        "peak": 276,
-        "area_metric": 1025520
+        "peak": 915
       }
     },
     {
@@ -4358,8 +4372,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 71,
+        "area_metric": 2040,
         "coast": 177,
-        "area_metric": 2040
+        "peak": 828
       }
     },
     {
@@ -4393,9 +4408,8 @@
         "neighbors": 3,
         "life_exp": 37.6,
         "height": 166,
-        "coast": 0,
-        "peak": 779,
-        "area_metric": 118484
+        "area_metric": 118484,
+        "peak": 3002
       }
     },
     {
@@ -4429,9 +4443,9 @@
         "neighbors": 3,
         "life_exp": 70.8,
         "height": 166,
-        "coast": 4.675,
-        "peak": 538,
-        "area_metric": 329758
+        "area_metric": 329758,
+        "coast": 4675,
+        "peak": 4095
       }
     },
     {
@@ -4473,9 +4487,9 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 42.5,
-        "coast": 1.572,
-        "peak": 1141,
-        "area_metric": 824292
+        "area_metric": 824292,
+        "coast": 1572,
+        "peak": 2573
       }
     },
     {
@@ -4511,9 +4525,8 @@
       "metrics": {
         "neighbors": 7,
         "life_exp": 41.3,
-        "coast": 0,
-        "peak": 474,
-        "area_metric": 1267000
+        "area_metric": 1267000,
+        "peak": 2002
       }
     },
     {
@@ -4547,9 +4560,9 @@
         "neighbors": 4,
         "life_exp": 51.6,
         "height": 165,
+        "area_metric": 923768,
         "coast": 853,
-        "peak": 380,
-        "area_metric": 923768
+        "peak": 2419
       }
     },
     {
@@ -4580,9 +4593,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 68.7,
+        "area_metric": 130000,
         "coast": 910,
-        "peak": 298,
-        "area_metric": 130000
+        "peak": 2085
       }
     },
     {
@@ -4614,9 +4627,9 @@
         "neighbors": 2,
         "life_exp": 78.3,
         "height": 181,
+        "area_metric": 41526,
         "coast": 451,
-        "peak": 30,
-        "area_metric": 41526
+        "peak": 870
       }
     },
     {
@@ -4651,9 +4664,9 @@
         "neighbors": 3,
         "life_exp": 78.7,
         "height": 179.7,
-        "coast": 25.148,
-        "peak": 460,
-        "area_metric": 323877
+        "area_metric": 323877,
+        "coast": 83281,
+        "peak": 2469
       }
     },
     {
@@ -4685,9 +4698,8 @@
         "neighbors": 2,
         "life_exp": 57.8,
         "height": 163,
-        "coast": 0,
-        "peak": 3265,
-        "area_metric": 147181
+        "area_metric": 147181,
+        "peak": 8849
       }
     },
     {
@@ -4716,8 +4728,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 60.8,
+        "area_metric": 21,
         "coast": 30,
-        "area_metric": 21
+        "peak": 65
       }
     },
     {
@@ -4748,9 +4761,9 @@
         "neighbors": 0,
         "life_exp": 77.8,
         "height": 175.5,
-        "coast": 15.134,
-        "peak": 388,
-        "area_metric": 270534
+        "area_metric": 270534,
+        "coast": 15134,
+        "peak": 3724
       }
     },
     {
@@ -4782,9 +4795,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 71.8,
-        "coast": 2.092,
-        "peak": 310,
-        "area_metric": 309500
+        "area_metric": 309500,
+        "coast": 2092,
+        "peak": 3018
       }
     },
     {
@@ -4819,9 +4832,9 @@
         "neighbors": 4,
         "life_exp": 61.1,
         "height": 167,
-        "coast": 1.046,
-        "peak": 900,
-        "area_metric": 796095
+        "area_metric": 796095,
+        "coast": 1046,
+        "peak": 8611
       }
     },
     {
@@ -4853,9 +4866,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 75.5,
-        "coast": 2.49,
-        "peak": 360,
-        "area_metric": 75517
+        "area_metric": 75517,
+        "coast": 2490,
+        "peak": 3475
       }
     },
     {
@@ -4892,9 +4905,9 @@
         "neighbors": 5,
         "life_exp": 70,
         "height": 164.3,
-        "coast": 2.414,
-        "peak": 1555,
-        "area_metric": 1285216
+        "area_metric": 1285216,
+        "coast": 2414,
+        "peak": 6768
       }
     },
     {
@@ -4924,9 +4937,9 @@
         "neighbors": 0,
         "life_exp": 67.5,
         "height": 162,
-        "coast": 36.289,
-        "peak": 442,
-        "area_metric": 300000
+        "area_metric": 300000,
+        "coast": 36289,
+        "peak": 2954
       }
     },
     {
@@ -4955,8 +4968,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 68.6,
-        "coast": 1.519,
-        "area_metric": 459
+        "area_metric": 459,
+        "coast": 1519,
+        "peak": 242
       }
     },
     {
@@ -4988,9 +5002,9 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 63.1,
-        "coast": 5.152,
-        "peak": 667,
-        "area_metric": 462840
+        "area_metric": 462840,
+        "coast": 5152,
+        "peak": 4509
       }
     },
     {
@@ -5027,9 +5041,9 @@
         "neighbors": 7,
         "life_exp": 73.2,
         "height": 176,
+        "area_metric": 323250,
         "coast": 440,
-        "peak": 173,
-        "area_metric": 323250
+        "peak": 2499
       }
     },
     {
@@ -5061,8 +5075,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 70.7,
-        "peak": 400,
-        "area_metric": 120538
+        "area_metric": 120538,
+        "coast": 2495,
+        "peak": 2744
       }
     },
     {
@@ -5093,9 +5108,9 @@
         "neighbors": 1,
         "life_exp": 75.8,
         "height": 170.5,
-        "coast": 1.793,
-        "peak": 372,
-        "area_metric": 91982
+        "area_metric": 91982,
+        "coast": 1793,
+        "peak": 2351
       }
     },
     {
@@ -5129,9 +5144,8 @@
         "neighbors": 3,
         "life_exp": 73.7,
         "height": 169,
-        "coast": 0,
-        "peak": 178,
-        "area_metric": 406752
+        "area_metric": 406752,
+        "peak": 842
       }
     },
     {
@@ -5166,7 +5180,8 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 71.4,
-        "area_metric": 6257
+        "area_metric": 6257,
+        "peak": 1030
       }
     },
     {
@@ -5197,9 +5212,9 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 72.4,
+        "area_metric": 11000,
         "coast": 563,
-        "peak": 28,
-        "area_metric": 11000
+        "peak": 103
       }
     },
     {
@@ -5234,9 +5249,9 @@
         "neighbors": 5,
         "life_exp": 69.9,
         "height": 172,
+        "area_metric": 238391,
         "coast": 225,
-        "peak": 414,
-        "area_metric": 238391
+        "peak": 2545
       }
     },
     {
@@ -5281,7 +5296,9 @@
       "metrics": {
         "neighbors": 14,
         "life_exp": 67.2,
-        "area_metric": 17075400
+        "area_metric": 17075400,
+        "coast": 37653,
+        "peak": 5642
       }
     },
     {
@@ -5316,9 +5333,8 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 39.3,
-        "coast": 0,
-        "peak": 1598,
-        "area_metric": 26338
+        "area_metric": 26338,
+        "peak": 4507
       }
     },
     {
@@ -5355,9 +5371,9 @@
       "metrics": {
         "neighbors": 7,
         "life_exp": 67.8,
-        "coast": 2.64,
-        "peak": 665,
-        "area_metric": 2149690
+        "area_metric": 2149690,
+        "coast": 2640,
+        "peak": 3015
       }
     },
     {
@@ -5394,9 +5410,9 @@
       "metrics": {
         "neighbors": 7,
         "life_exp": 56.6,
+        "area_metric": 1886068,
         "coast": 853,
-        "peak": 568,
-        "area_metric": 1886068
+        "peak": 3024
       }
     },
     {
@@ -5431,9 +5447,9 @@
         "neighbors": 5,
         "life_exp": 62.2,
         "height": 173,
+        "area_metric": 196722,
         "coast": 531,
-        "peak": 69,
-        "area_metric": 196722
+        "peak": 638
       }
     },
     {
@@ -5467,8 +5483,9 @@
         "neighbors": 0,
         "life_exp": 80.1,
         "height": 166.6,
+        "area_metric": 618,
         "coast": 193,
-        "area_metric": 618
+        "peak": 164
       }
     },
     {
@@ -5496,8 +5513,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 71.3,
-        "coast": 5.313,
-        "area_metric": 28896
+        "area_metric": 28896,
+        "coast": 5313,
+        "peak": 2335
       }
     },
     {
@@ -5528,9 +5546,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 45.3,
+        "area_metric": 71740,
         "coast": 402,
-        "peak": 279,
-        "area_metric": 71740
+        "peak": 1945
       }
     },
     {
@@ -5561,9 +5579,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 69.7,
+        "area_metric": 21041,
         "coast": 307,
-        "peak": 442,
-        "area_metric": 21041
+        "peak": 2730
       }
     },
     {
@@ -5593,8 +5611,8 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 81.1,
-        "coast": 0,
-        "area_metric": 61
+        "area_metric": 61,
+        "peak": 739
       }
     },
     {
@@ -5627,9 +5645,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 46.2,
-        "coast": 3.333,
-        "peak": 410,
-        "area_metric": 637657
+        "area_metric": 637657,
+        "coast": 3333,
+        "peak": 2460
       }
     },
     {
@@ -5668,9 +5686,8 @@
         "neighbors": 8,
         "life_exp": 76.05,
         "height": 174.13,
-        "coast": 199,
-        "peak": 2826,
-        "area_metric": 88361
+        "area_metric": 88361,
+        "peak": 2169
       }
     },
     {
@@ -5704,8 +5721,8 @@
       "carSide": "right",
       "metrics": {
         "neighbors": 6,
-        "coast": 0,
-        "area_metric": 619745
+        "area_metric": 619745,
+        "peak": 3187
       }
     },
     {
@@ -5733,8 +5750,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 65.3,
+        "area_metric": 964,
         "coast": 209,
-        "area_metric": 964
+        "peak": 2024
       }
     },
     {
@@ -5766,9 +5784,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 71.4,
+        "area_metric": 163265,
         "coast": 386,
-        "peak": 246,
-        "area_metric": 163265
+        "peak": 1280
       }
     },
     {
@@ -5802,9 +5820,8 @@
       "metrics": {
         "neighbors": 5,
         "life_exp": 73.7,
-        "coast": 0,
-        "peak": 458,
-        "area_metric": 49012
+        "area_metric": 49012,
+        "peak": 2654
       }
     },
     {
@@ -5838,9 +5855,9 @@
         "neighbors": 4,
         "life_exp": 74.9,
         "height": 178.1,
-        "coast": 46.6,
-        "peak": 492,
-        "area_metric": 20256
+        "area_metric": 20256,
+        "coast": 46,
+        "peak": 2864
       }
     },
     {
@@ -5872,9 +5889,9 @@
         "neighbors": 2,
         "life_exp": 79.6,
         "height": 179.3,
-        "coast": 3.218,
-        "peak": 320,
-        "area_metric": 449964
+        "area_metric": 449964,
+        "coast": 3218,
+        "peak": 2097
       }
     },
     {
@@ -5907,9 +5924,8 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 40.4,
-        "coast": 0,
-        "peak": 305,
-        "area_metric": 17364
+        "area_metric": 17364,
+        "peak": 1862
       }
     },
     {
@@ -5939,8 +5955,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 70.4,
+        "area_metric": 455,
         "coast": 491,
-        "area_metric": 455
+        "peak": 905
       }
     },
     {
@@ -5976,9 +5993,9 @@
         "neighbors": 5,
         "life_exp": 68.5,
         "height": 171,
+        "area_metric": 185180,
         "coast": 193,
-        "peak": 514,
-        "area_metric": 185180
+        "peak": 2814
       }
     },
     {
@@ -6014,9 +6031,8 @@
       "metrics": {
         "neighbors": 6,
         "life_exp": 50.5,
-        "coast": 0,
-        "peak": 543,
-        "area_metric": 1284000
+        "area_metric": 1284000,
+        "peak": 3447
       }
     },
     {
@@ -6048,9 +6064,9 @@
       "metrics": {
         "neighbors": 3,
         "life_exp": 54.7,
+        "area_metric": 56785,
         "coast": 56,
-        "peak": 236,
-        "area_metric": 56785
+        "peak": 991
       }
     },
     {
@@ -6085,9 +6101,9 @@
         "neighbors": 4,
         "life_exp": 68.6,
         "height": 166.4,
-        "coast": 3.219,
-        "peak": 287,
-        "area_metric": 513115
+        "area_metric": 513115,
+        "coast": 3219,
+        "peak": 2565
       }
     },
     {
@@ -6121,9 +6137,8 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 64.1,
-        "coast": 0,
-        "peak": 3186,
-        "area_metric": 143100
+        "area_metric": 143100,
+        "peak": 7495
       }
     },
     {
@@ -6158,9 +6173,8 @@
         "neighbors": 4,
         "life_exp": 60.9,
         "height": 173.3,
-        "coast": 0,
-        "peak": 230,
-        "area_metric": 488100
+        "area_metric": 488100,
+        "peak": 3139
       }
     },
     {
@@ -6191,7 +6205,9 @@
       "metrics": {
         "neighbors": 1,
         "life_exp": 46,
-        "area_metric": 14874
+        "area_metric": 14874,
+        "coast": 706,
+        "peak": 2963
       }
     },
     {
@@ -6220,8 +6236,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 67.9,
+        "area_metric": 650,
         "coast": 419,
-        "area_metric": 650
+        "peak": 1030
       }
     },
     {
@@ -6249,9 +6266,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 68,
+        "area_metric": 5130,
         "coast": 362,
-        "peak": 83,
-        "area_metric": 5130
+        "peak": 940
       }
     },
     {
@@ -6283,9 +6300,9 @@
         "neighbors": 2,
         "life_exp": 73.7,
         "height": 170.3,
-        "coast": 1.148,
-        "peak": 246,
-        "area_metric": 163610
+        "area_metric": 163610,
+        "coast": 1148,
+        "peak": 1544
       }
     },
     {
@@ -6323,9 +6340,9 @@
         "neighbors": 8,
         "life_exp": 71,
         "height": 174.1,
-        "coast": 7.2,
-        "peak": 1132,
-        "area_metric": 774815
+        "area_metric": 774815,
+        "coast": 7200,
+        "peak": 5137
       }
     },
     {
@@ -6355,8 +6372,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 66.3,
+        "area_metric": 26,
         "coast": 24,
-        "area_metric": 26
+        "peak": 5
       }
     },
     {
@@ -6385,7 +6403,9 @@
       "carSide": null,
       "metrics": {
         "neighbors": 0,
-        "area_metric": 36188
+        "area_metric": 36188,
+        "coast": 1566,
+        "peak": 3952
       }
     },
     {
@@ -6424,9 +6444,9 @@
         "neighbors": 8,
         "life_exp": 52.3,
         "height": 166.9,
-        "coast": 1.424,
-        "peak": 1018,
-        "area_metric": 883749
+        "area_metric": 883749,
+        "coast": 1424,
+        "peak": 5895
       }
     },
     {
@@ -6462,8 +6482,8 @@
         "neighbors": 5,
         "life_exp": 42.9,
         "height": 166.9,
-        "coast": 0,
-        "area_metric": 241038
+        "area_metric": 241038,
+        "peak": 5109
       }
     },
     {
@@ -6501,9 +6521,9 @@
         "neighbors": 7,
         "life_exp": 66,
         "height": 175,
-        "coast": 2.782,
-        "peak": 175,
-        "area_metric": 603700
+        "area_metric": 603700,
+        "coast": 2782,
+        "peak": 2061
       }
     },
     {
@@ -6535,9 +6555,9 @@
         "neighbors": 2,
         "life_exp": 75.2,
         "height": 171.8,
+        "area_metric": 175016,
         "coast": 660,
-        "peak": 109,
-        "area_metric": 175016
+        "peak": 514
       }
     },
     {
@@ -6569,9 +6589,9 @@
         "neighbors": 2,
         "life_exp": 77.1,
         "height": 176.4,
-        "coast": 19.924,
-        "peak": 760,
-        "area_metric": 9363520
+        "area_metric": 9363520,
+        "coast": 19924,
+        "peak": 6190
       }
     },
     {
@@ -6607,8 +6627,8 @@
         "neighbors": 5,
         "life_exp": 63.7,
         "height": 173.4,
-        "coast": 0,
-        "area_metric": 447400
+        "area_metric": 447400,
+        "peak": 4301
       }
     },
     {
@@ -6637,7 +6657,8 @@
       "callingCode": "+3906698",
       "carSide": null,
       "metrics": {
-        "neighbors": 1
+        "neighbors": 1,
+        "peak": 75
       }
     },
     {
@@ -6665,8 +6686,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 72.3,
+        "area_metric": 388,
         "coast": 84,
-        "area_metric": 388
+        "peak": 1235
       }
     },
     {
@@ -6699,9 +6721,9 @@
         "neighbors": 3,
         "life_exp": 73.1,
         "height": 169,
-        "coast": 2.8,
-        "peak": 450,
-        "area_metric": 912050
+        "area_metric": 912050,
+        "coast": 2800,
+        "peak": 4978
       }
     },
     {
@@ -6734,8 +6756,9 @@
         "neighbors": 3,
         "life_exp": 69.3,
         "height": 162.1,
-        "coast": 3.444,
-        "area_metric": 331689
+        "area_metric": 331689,
+        "coast": 3444,
+        "peak": 3143
       }
     },
     {
@@ -6765,8 +6788,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 60.6,
-        "coast": 2.528,
-        "area_metric": 12189
+        "area_metric": 12189,
+        "coast": 2528,
+        "peak": 1879
       }
     },
     {
@@ -6795,8 +6819,9 @@
       "metrics": {
         "neighbors": 0,
         "life_exp": 69.2,
+        "area_metric": 2831,
         "coast": 403,
-        "area_metric": 2831
+        "peak": 1858
       }
     },
     {
@@ -6827,9 +6852,9 @@
       "metrics": {
         "neighbors": 2,
         "life_exp": 59.8,
-        "coast": 1.906,
-        "peak": 999,
-        "area_metric": 527968
+        "area_metric": 527968,
+        "coast": 1906,
+        "peak": 3760
       }
     },
     {
@@ -6875,9 +6900,9 @@
         "neighbors": 6,
         "life_exp": 51.1,
         "height": 170,
-        "coast": 2.798,
-        "peak": 1034,
-        "area_metric": 1221037
+        "area_metric": 1221037,
+        "coast": 2798,
+        "peak": 3446
       }
     },
     {
@@ -6914,9 +6939,8 @@
       "metrics": {
         "neighbors": 8,
         "life_exp": 37.2,
-        "coast": 0,
-        "peak": 1138,
-        "area_metric": 752618
+        "area_metric": 752618,
+        "peak": 2339
       }
     },
     {
@@ -6971,9 +6995,8 @@
       "metrics": {
         "neighbors": 4,
         "life_exp": 37.8,
-        "coast": 0,
-        "peak": 961,
-        "area_metric": 390757
+        "area_metric": 390757,
+        "peak": 2592
       }
     }
   ]
